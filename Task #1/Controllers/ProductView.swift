@@ -7,10 +7,14 @@
 
 import UIKit
 
-class a: UIViewController {
+class ProductView: UIViewController {
     
     var mainLabel: String?
     var productImageName: String?
+    
+    //@IBOutlet weak var mainTitle: UILabel!
+    //@IBOutlet weak var addToCartButton: UIButton!
+    //@IBOutlet weak var productImage: UIImageView!
     
     @IBOutlet weak var mainTitle: UILabel!
     @IBOutlet weak var addToCartButton: UIButton!
